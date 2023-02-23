@@ -103,20 +103,27 @@ h1{
 /* FOOTER */
 
 footer{
-    background-color: darkslategrey;
+    background-color: rgb(14, 36, 36);
     text-align: start;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: white;
 }
 
 .text-violet{
     color: rgb(125, 95, 235);
 }
 
-footer > div{
+footer > section > div{
     display: inline-block;
-    text-align: start;
+    padding: 30px;
 }
 
 .vert-list{
     list-style-type: none;
-    color: white;
+}
+.button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(125, 95, 235);
 }
