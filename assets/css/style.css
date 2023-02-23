@@ -58,6 +58,27 @@ h1{
     padding: 20px;
 }
 
+#button{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.button-1{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+.button-2{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(38, 38, 38); 
+    color: white;
+    margin-left: 15px; 
+}
+
 /* MAIN */
 .dim-1{
     height: 300px;
@@ -76,10 +97,14 @@ h1{
 
 .back-white{
     background-color: white;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 .back-grey{
     background-color: lightgrey;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 .dim-65{
@@ -100,6 +125,11 @@ h1{
     display: inline-block;
 }
 
+.center{
+    display: flex;
+    justify-content: center;
+}
+
 /* FOOTER */
 
 footer{
@@ -110,20 +140,43 @@ footer{
     color: white;
 }
 
+#dim-100{
+    height: 100%;
+}
+
 .text-violet{
     color: rgb(125, 95, 235);
 }
 
 footer > section > div{
     display: inline-block;
-    padding: 30px;
+    padding-right: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 100%;
+    height: 100%;
 }
 
 .vert-list{
-    list-style-type: none;
+    list-style-type: none;  
 }
-.button{
+.button-3{
     padding: 10px;
     border-radius: 20px;
     background-color: rgb(125, 95, 235);
+    color: white;
+}
+
+.larg-50{
+    width: 50%;
+}
+
+.larg-70-2{
+    display: flex;
+    width: 100%;
+}
+
+#end{
+    display: flex;
+    justify-content: flex-end;
 }
