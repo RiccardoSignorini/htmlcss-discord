@@ -13,10 +13,6 @@ header{
     width: auto;
 }
 
-span{
-    display: inline-block;
-}
-
 .larg-70{
     display: flex;
     width: 70%;
@@ -27,9 +23,11 @@ nav{
     margin-left: 15%;
 }
 
-ul li{
+#hor-list > li{
     display: inline-block;
     list-style-type: none;
+    color: white;
+    padding-right: 10px;
 }
 
 .stretto{
@@ -81,7 +79,7 @@ h1{
 }
 
 .back-grey{
-    padding: 5px;
+    background-color: lightgrey;
 }
 
 .dim-65{
@@ -91,7 +89,7 @@ h1{
     display: inline-block;
 }
 
-img{
+.img-body{
     width: 70%;
     height: 70%;
 }
@@ -105,43 +103,20 @@ img{
 /* FOOTER */
 
 footer{
-    background-color: darkslategray;
-    padding: 10px;
+    background-color: darkslategrey;
+    text-align: start;
 }
 
-#dim-3{
-    height: 400px;
-    width: 60%;
-    margin-left: 20%;
-    font-size: 0;
-    margin-bottom: 20px;
+.text-violet{
+    color: rgb(125, 95, 235);
 }
 
-#rett-grande{
-    background-color: darksalmon;
-    width: 40%;
-    height: 100%;
+footer > div{
     display: inline-block;
+    text-align: start;
 }
 
-.rett-piccoli{
-    background-color: aquamarine;
-    height: 100%;
-    width: 15%;
-    display: inline-block;
-    border: 1px solid black;
-}
-
-#dim-4{
-    height: 10%;
-}
-
-#barra-fondo{
-    background-color: aquamarine;
-    width: 60%;
-    height: 10px;
-    display: flex;
-    margin-left: 20%;
-    margin-top: 20px;
-    margin-bottom: 0;
+.vert-list{
+    list-style-type: none;
+    color: white;
 }
